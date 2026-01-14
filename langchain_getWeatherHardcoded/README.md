@@ -3,6 +3,12 @@
 ## Setup
 
 This uses pip and not uv.
+
+Create a .env file at the root. It should contain the api key. Ex:
+`
+GOOGLE_API_KEY="AI....d4"
+`
+
 Usual pip commands can be used
 
 ### Create a virtual environment using the command:
