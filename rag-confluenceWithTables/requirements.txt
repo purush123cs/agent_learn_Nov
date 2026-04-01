@@ -1,0 +1,26 @@
+# ── Document parsing ──────────────────────────────────────────────────────────
+docling>=2.14.0
+docling-core>=2.14.0
+
+# ── LlamaIndex (retriever framework only — no built-in vector store needed) ───
+llama-index-core>=0.11.0
+llama-index-llms-azure-openai>=0.2.0       # optional: AzureOpenAI LLM wrapper
+
+# ── Azure AI Search ───────────────────────────────────────────────────────────
+azure-search-documents>=11.6.0
+azure-core>=1.30.0
+
+# ── Azure / OpenAI SDK ────────────────────────────────────────────────────────
+openai>=1.35.0
+
+# ── Confluence (atlassian-python-api handles auth, pagination, retries) ───────
+atlassian-python-api>=3.41.0
+
+# ── HTML pre-processing (expand macros, layout tables, code blocks) ───────────
+beautifulsoup4>=4.12.0
+
+# ── Token counting (chunk size gate for text chunks) ─────────────────────────
+tiktoken>=0.7.0
+
+# ── Environment variable management ──────────────────────────────────────────
+python-dotenv>=1.0.0
